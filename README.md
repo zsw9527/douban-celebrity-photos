@@ -1,15 +1,14 @@
-# How do you use it?
+# 如何使用
 
-## First you need to install bs4, requests both libraries
+## 首先用pip安装bs4和requests
 > pip install bs4
 
 > pip install requests
 
-## After installing the library, open the terminal and run the script, if the star album address you want to grab is "https://movie.douban.com/celebrity/1044702/photos/"
+## 安装完库后，打开命令行进入douban_catcher.py所在目录，执行以下命令，命令行第一个参数就是想要下载的明星相册url，比如下面这个例子中的https://movie.douban.com/celebrity/1044702/photos/
 
-> Then enter on the terminal:
 > python douban_catcher.py https://movie.douban.com/celebrity/1044702/photos/
 
-> Note that the path address is correct, it must be in this format: https://movie.douban.com/celebrity/XXX/photos/
+> 相册url地址格式是这样的: https://movie.douban.com/celebrity/XXX/photos/
 
-## Open the local D drive and a directory called "celebrity" will appear, and the pictures are being downloaded to this directory
+## 打开D盘目录，照片会下载到"celebrity" 这个目录下，这个例子是基于windows平台，使用者可自己在代码中修改要保存的路径
